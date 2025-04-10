@@ -3,8 +3,12 @@ body {
   font-weight: 500;
 }
 
+.imgbox {
+  overflow: hidden;
+}
 .imgbox img {
   width: 100%;
+  border-radius: 20px;
 }
 
 #carefor {
@@ -24,6 +28,7 @@ body {
 }
 #carefor .imgbox {
   width: 500px;
+  border-radius: 20px;
 }
 
 #welcome {
@@ -166,6 +171,7 @@ body {
   background: #708f97;
   padding: 50px 30px;
   text-align: center;
+  border-radius: 20px;
 }
 #pricing .box h2 {
   font-size: 25px;
