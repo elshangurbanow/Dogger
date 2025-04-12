@@ -30,6 +30,21 @@ body {
   width: 500px;
   border-radius: 20px;
 }
+@media screen and (max-width: 991px) {
+  #carefor .textbox {
+    text-align: center;
+    padding: 0 0;
+  }
+  #carefor .textbox h1 {
+    font-size: 55px;
+  }
+  #carefor .textbox h4 {
+    font-size: 22px;
+  }
+  #carefor .imgbox {
+    width: 400px;
+  }
+}
 
 #welcome {
   padding: 40px 0;
@@ -64,6 +79,28 @@ body {
 #welcome .wid {
   width: 580px;
   padding: 0;
+}
+@media screen and (max-width: 991px) {
+  #welcome .imgflex {
+    display: flex;
+    align-items: center;
+  }
+  #welcome .textbox {
+    padding: 20px;
+  }
+  #welcome .textbox h1 {
+    font-size: 50px;
+  }
+  #welcome .textbox h3 {
+    font-size: 22px;
+  }
+  #welcome .textbox h2 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  #welcome .imgbox {
+    width: 600px;
+  }
 }
 
 #about {
