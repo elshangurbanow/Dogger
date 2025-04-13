@@ -140,6 +140,18 @@ body {
 #about .imgbox {
   width: 450px;
 }
+@media screen and (max-width: 991px) {
+  #about .textbox {
+    padding: 0 30px;
+  }
+  #about .textbox h1 {
+    font-size: 50px;
+  }
+  #about .imgbox {
+    width: 900px;
+    height: 800px;
+  }
+}
 
 #trainers {
   padding: 40px 0;
