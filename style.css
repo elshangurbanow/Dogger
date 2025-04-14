@@ -141,11 +141,18 @@ body {
   width: 450px;
 }
 @media screen and (max-width: 991px) {
+  #about .flexbty {
+    display: flex;
+    align-items: center;
+  }
   #about .textbox {
-    padding: 0 30px;
+    padding: 0 0;
   }
   #about .textbox h1 {
     font-size: 50px;
+  }
+  #about .textbox h3, #about .textbox p {
+    font-size: 21px;
   }
   #about .imgbox {
     width: 900px;
@@ -195,6 +202,11 @@ body {
 }
 #trainers .wid {
   width: 580px;
+}
+@media screen and (max-widt: 991px) {
+  #trainers .text-center {
+    margin: 40px 0;
+  }
 }
 
 #pricing {
