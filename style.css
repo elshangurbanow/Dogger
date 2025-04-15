@@ -203,9 +203,21 @@ body {
 #trainers .wid {
   width: 580px;
 }
-@media screen and (max-widt: 991px) {
-  #trainers .text-center {
-    margin: 40px 0;
+@media screen and (max-width: 991px) {
+  #trainers h1 {
+    font-size: 50px;
+  }
+  #trainers h3 {
+    font-size: 22px;
+  }
+  #trainers .box .imgbox {
+    width: 230px;
+  }
+  #trainers .box h2 {
+    font-size: 18px;
+  }
+  #trainers .wid {
+    margin-bottom: 50px;
   }
 }
 
