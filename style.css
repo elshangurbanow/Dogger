@@ -154,6 +154,9 @@ body {
   #about .textbox h3, #about .textbox p {
     font-size: 21px;
   }
+  #about .textbox li {
+    padding: 10px 0 0 0;
+  }
   #about .imgbox {
     width: 900px;
     height: 800px;
@@ -285,14 +288,17 @@ body {
   #pricing .textbox h5 {
     font-size: 22px;
   }
+  #pricing .box {
+    padding: 0 0 0 0;
+  }
   #pricing .box h2 {
     font-size: 23px;
   }
   #pricing .box h3 {
     font-size: 28px;
   }
-  #pricing .box h3 h4 {
-    font-size: 16px;
+  #pricing .box li h4 {
+    font-size: 15px;
   }
 }
 
