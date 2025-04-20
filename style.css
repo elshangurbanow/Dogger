@@ -360,6 +360,19 @@ body {
   #questions .textbox {
     padding: 0 0 0 0;
   }
+  #questions .textbox .minibox h2 {
+    font-size: 20px;
+  }
+  #questions .textbox p {
+    font-size: 17px;
+    padding: 10px 0 0 22px;
+  }
+  #questions .textbox h4 {
+    font-size: 20px;
+  }
+  #questions .imgflex {
+    align-items: center;
+  }
 }
 
 #dogger {
@@ -395,6 +408,18 @@ body {
 }
 #dogger .wid {
   width: 580px;
+}
+@media screen and (max-width: 991px) {
+  #dogger .flexbb {
+    display: flex;
+    flex-direction: column;
+  }
+  #dogger .box {
+    display: flex;
+  }
+  #dogger .box h1 {
+    font-size: 50px;
+  }
 }
 
 #services {
