@@ -280,22 +280,25 @@ body {
 }
 @media screen and (max-width: 991px) {
   #pricing .textbox {
-    padding: 0 0 50px 0;
+    padding: 0 0 30px 0;
   }
   #pricing .textbox h1 {
     font-size: 50px;
   }
   #pricing .textbox h5 {
     font-size: 22px;
+    margin-bottom: 20px;
   }
   #pricing .box {
-    padding: 0 0 0 0;
+    padding: 0 0 15px 5px;
   }
   #pricing .box h2 {
     font-size: 23px;
+    margin: 10px 0 0 0;
   }
   #pricing .box h3 {
     font-size: 28px;
+    margin: 10px 0 0 0;
   }
   #pricing .box li h4 {
     font-size: 15px;
@@ -349,6 +352,14 @@ body {
 }
 #questions .bigicon i {
   font-size: 30px;
+}
+@media screen and (max-width: 991px) {
+  #questions h1 {
+    font-size: 48px;
+  }
+  #questions .textbox {
+    padding: 0 0 0 0;
+  }
 }
 
 #dogger {
