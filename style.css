@@ -94,6 +94,9 @@ body {
   width: 580px;
   padding: 0;
 }
+#welcome .textright {
+  text-align: right;
+}
 @media screen and (max-width: 991px) {
   #welcome .imgflex {
     display: flex;
@@ -117,25 +120,29 @@ body {
   }
 }
 @media screen and (max-width: 391px) {
-  #welcome .flexrevers {
-    display: flex;
-    flex-flow: column-reverse;
-  }
   #welcome .textbox h1 {
     font-size: 45px;
   }
   #welcome .textbox h3 {
     font-size: 20px;
   }
-  #welcome .tstart {
-    display: flex;
-    justify-content: center;
-  }
-  #welcome .textflex {
-    text-align: center;
+  #welcome .textbox {
+    padding: 0 20px;
+    margin: 20px 0;
   }
   #welcome .imgbox {
     width: 300px;
+  }
+  #welcome .textright {
+    text-align: center;
+  }
+  #welcome .flexrevers {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  #welcome .imgflex {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -196,6 +203,21 @@ body {
   #about .imgbox {
     width: 900px;
     height: 800px;
+  }
+}
+@media screen and (max-width: 391px) {
+  #about .textbox {
+    text-align: center;
+  }
+  #about .textbox h1 {
+    font-size: 50px;
+  }
+  #about .textbox h3 {
+    font-size: 18px;
+  }
+  #about .textbox p {
+    font-size: 18px;
+    margin: 20px 0;
   }
 }
 

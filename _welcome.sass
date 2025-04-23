@@ -23,34 +23,39 @@
     .wid
         width: 580px
         padding: 0
+    .textright
+        text-align: right
     @media screen and ( max-width: 991px )
         .imgflex
             display: flex
             align-items: center
         .textbox
             padding: 20px
-            h1 
+            h1
                 font-size: 50px
-            h3 
+            h3
                 font-size: 22px
-            h2 
+            h2
                 font-size: 30px
                 font-weight: 500
         .imgbox
             width: 600px
     @media screen and ( max-width: 391px )
+        .textbox
+            h1
+                font-size: 45px
+            h3
+                font-size: 20px
+        .textbox
+            padding: 0 20px
+            margin: 20px 0
+        .imgbox
+            width: 300px
+        .textright
+            text-align: center
         .flexrevers
             display: flex
             flex-flow: column-reverse
-        .textbox
-            h1 
-                font-size: 45px
-            h3 
-                font-size: 20px
-        .tstart
+        .imgflex
             display: flex
             justify-content: center
-        .textflex
-            text-align: center
-        .imgbox
-            width: 300px
