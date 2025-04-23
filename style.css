@@ -45,6 +45,20 @@ body {
     width: 400px;
   }
 }
+@media screen and (max-width: 391px) {
+  #carefor .textbox {
+    margin-bottom: 20px;
+  }
+  #carefor .textbox h1 {
+    font-size: 45px;
+  }
+  #carefor .textbox h4 {
+    font-size: 20px;
+  }
+  #carefor .imgbox {
+    width: 320px;
+  }
+}
 
 #welcome {
   padding: 40px 0;
@@ -100,6 +114,28 @@ body {
   }
   #welcome .imgbox {
     width: 600px;
+  }
+}
+@media screen and (max-width: 391px) {
+  #welcome .flexrevers {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  #welcome .textbox h1 {
+    font-size: 45px;
+  }
+  #welcome .textbox h3 {
+    font-size: 20px;
+  }
+  #welcome .tstart {
+    display: flex;
+    justify-content: center;
+  }
+  #welcome .textflex {
+    text-align: center;
+  }
+  #welcome .imgbox {
+    width: 300px;
   }
 }
 
@@ -410,15 +446,18 @@ body {
   width: 580px;
 }
 @media screen and (max-width: 991px) {
+  #dogger h1 {
+    font-size: 50px;
+  }
+  #dogger .textbox {
+    margin: 0 0;
+  }
+  #dogger .textbox h2 {
+    margin: 20px 0 0 0;
+  }
   #dogger .flexbb {
     display: flex;
     flex-direction: column;
-  }
-  #dogger .box {
-    display: flex;
-  }
-  #dogger .box h1 {
-    font-size: 50px;
   }
 }
 
@@ -450,4 +489,12 @@ body {
 }
 #services .textbox .icon {
   font-size: 60px;
+}
+@media screen and (max-width: 991px) {
+  #services h1 {
+    font-size: 50px;
+  }
+  #services .textbox {
+    padding: 0 0;
+  }
 }/*# sourceMappingURL=style.css.map */
