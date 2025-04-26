@@ -63,6 +63,9 @@ body {
 #welcome {
   padding: 40px 0;
 }
+#welcome .twocenter {
+  text-align: end;
+}
 #welcome .textbox {
   padding: 80px;
 }
@@ -94,55 +97,26 @@ body {
   width: 580px;
   padding: 0;
 }
-#welcome .textright {
-  text-align: right;
-}
 @media screen and (max-width: 991px) {
-  #welcome .imgflex {
-    display: flex;
-    align-items: center;
-  }
   #welcome .textbox {
-    padding: 20px;
+    padding: 0 0;
+    margin: 0 0 50px 0;
   }
   #welcome .textbox h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
-  #welcome .textbox h3 {
-    font-size: 22px;
-  }
-  #welcome .textbox h2 {
-    font-size: 30px;
-    font-weight: 500;
-  }
-  #welcome .imgbox {
-    width: 600px;
+  #welcome .textbox .btn {
+    padding: 8px 20px;
   }
 }
 @media screen and (max-width: 391px) {
-  #welcome .textbox h1 {
-    font-size: 45px;
-  }
-  #welcome .textbox h3 {
-    font-size: 20px;
+  #welcome .colrevers {
+    display: flex;
+    flex-direction: column-reverse;
   }
   #welcome .textbox {
-    padding: 0 20px;
-    margin: 20px 0;
-  }
-  #welcome .imgbox {
-    width: 300px;
-  }
-  #welcome .textright {
     text-align: center;
-  }
-  #welcome .flexrevers {
-    display: flex;
-    flex-flow: column-reverse;
-  }
-  #welcome .imgflex {
-    display: flex;
-    justify-content: center;
+    margin: 30px 0;
   }
 }
 
@@ -184,25 +158,11 @@ body {
   width: 450px;
 }
 @media screen and (max-width: 991px) {
-  #about .flexbty {
-    display: flex;
-    align-items: center;
-  }
   #about .textbox {
     padding: 0 0;
   }
   #about .textbox h1 {
-    font-size: 50px;
-  }
-  #about .textbox h3, #about .textbox p {
-    font-size: 21px;
-  }
-  #about .textbox li {
-    padding: 10px 0 0 0;
-  }
-  #about .imgbox {
-    width: 900px;
-    height: 800px;
+    font-size: 45px;
   }
 }
 @media screen and (max-width: 391px) {
@@ -210,14 +170,21 @@ body {
     text-align: center;
   }
   #about .textbox h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   #about .textbox h3 {
     font-size: 18px;
   }
-  #about .textbox p {
-    font-size: 18px;
-    margin: 20px 0;
+  #about .textbox ul {
+    padding: 20px 0;
+  }
+  #about .textbox ul li {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 0 0;
+  }
+  #about .imgbox {
+    width: 350px;
   }
 }
 
@@ -269,7 +236,10 @@ body {
     font-size: 50px;
   }
   #trainers h3 {
-    font-size: 22px;
+    font-size: 20px;
+  }
+  #trainers .box .textbox {
+    padding: 0 0 0 20px;
   }
   #trainers .box .imgbox {
     width: 230px;

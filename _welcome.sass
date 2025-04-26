@@ -1,5 +1,7 @@
 #welcome
     padding: 40px 0
+    .twocenter
+        text-align: end
     .textbox
         padding: 80px
         h1
@@ -23,39 +25,18 @@
     .wid
         width: 580px
         padding: 0
-    .textright
-        text-align: right
     @media screen and ( max-width: 991px )
-        .imgflex
-            display: flex
-            align-items: center
         .textbox
-            padding: 20px
+            padding: 0 0
+            margin: 0 0 50px 0
             h1
-                font-size: 50px
-            h3
-                font-size: 22px
-            h2
-                font-size: 30px
-                font-weight: 500
-        .imgbox
-            width: 600px
+                font-size: 40px
+            .btn
+                padding: 8px 20px
     @media screen and ( max-width: 391px )
+        .colrevers
+            display: flex
+            flex-direction: column-reverse
         .textbox
-            h1
-                font-size: 45px
-            h3
-                font-size: 20px
-        .textbox
-            padding: 0 20px
-            margin: 20px 0
-        .imgbox
-            width: 300px
-        .textright
             text-align: center
-        .flexrevers
-            display: flex
-            flex-flow: column-reverse
-        .imgflex
-            display: flex
-            justify-content: center
+            margin: 30px 0 
