@@ -103,7 +103,7 @@ body {
     margin: 0 0 50px 0;
   }
   #welcome .textbox h1 {
-    font-size: 40px;
+    font-size: 45px;
   }
   #welcome .textbox .btn {
     padding: 8px 20px;
@@ -325,7 +325,7 @@ body {
     font-size: 50px;
   }
   #pricing .textbox h5 {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 20px;
   }
   #pricing .box {
@@ -352,6 +352,9 @@ body {
   }
   #pricing .box {
     margin: 10px 0;
+  }
+  #pricing .box ul {
+    text-align: start;
   }
 }
 
@@ -417,11 +420,34 @@ body {
     font-size: 17px;
     padding: 10px 0 0 22px;
   }
+  #questions .textbox li {
+    margin: 15px 0 0 0;
+  }
   #questions .textbox h4 {
     font-size: 20px;
   }
   #questions .imgflex {
     align-items: center;
+  }
+}
+@media screen and (max-width: 391px) {
+  #questions h1 {
+    font-size: 40px;
+  }
+  #questions h3 {
+    font-size: 19px;
+  }
+  #questions .textbox {
+    margin: 20px 0;
+  }
+  #questions .textbox .minibox h2 {
+    font-size: 18px;
+  }
+  #questions .textbox p {
+    font-size: 15px;
+  }
+  #questions .textbox li h4 {
+    font-size: 18px;
   }
 }
 
@@ -463,15 +489,27 @@ body {
   #dogger h1 {
     font-size: 50px;
   }
+  #dogger h3 {
+    font-size: 19px;
+  }
   #dogger .textbox {
-    margin: 0 0;
+    margin: 0 0 0 10px;
   }
   #dogger .textbox h2 {
+    font-size: 20px;
     margin: 20px 0 0 0;
   }
   #dogger .flexbb {
     display: flex;
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 391px) {
+  #dogger h1 {
+    font-size: 45px;
+  }
+  #dogger .textbox {
+    margin-bottom: 20px;
   }
 }
 
@@ -508,7 +546,22 @@ body {
   #services h1 {
     font-size: 50px;
   }
+  #services h3 {
+    font-size: 18px;
+  }
   #services .textbox {
     padding: 0 0;
+  }
+}
+@media screen and (max-width: 391px) {
+  #services h1 {
+    font-size: 45px;
+  }
+  #services .textbox {
+    text-align: center;
+    margin: 30px 0;
+  }
+  #services .textbox .icon {
+    font-size: 80px;
   }
 }/*# sourceMappingURL=style.css.map */
